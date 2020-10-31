@@ -70,7 +70,7 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 424px) {
+@media screen and (min-width: 321px) and (max-width: 767px) {
   .header {
     padding: 18px 18px 0 18px;
   }
@@ -217,5 +217,109 @@
   .lead__caption {
     padding-left: 16px;
     line-height: 1.4;
+  }
+}
+
+.intro {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 92px 442px 92px 148px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .intro {
+    padding: 92px 286px 92px 48px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .intro {
+    padding: 88px 24px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .intro {
+    padding: 70px 20px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .intro {
+    padding: 64px 16px 64px 16px;
+  }
+}
+
+.intro__title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: calc(58 / 54);
+  padding-bottom: 40px;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .intro__title{
+    max-width: 405px;
+    white-space: normal;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 1.1;
+    max-width: 288px;
+    white-space: normal;
+  }
+}
+
+.intro__text {
+  margin: 0;
+  max-width: 690px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .intro__text {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .intro__text{
+    max-width: 420px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 424px) {
+  .intro__text {
+    max-width: 311px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__text {
+    max-width: 288px;
+    min-height: 711px;
+  }
+}
+
+.intro__list {
+  margin: 0;
+  list-style: none;
+  padding-top: 33px;
+  padding-left: 0;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__list {
+    max-width: 288px;
   }
 }
