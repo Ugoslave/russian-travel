@@ -358,6 +358,7 @@
   .photo-grid{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(12, 1fr);
+    padding: 0 24px;
   }
 }
 
@@ -515,7 +516,7 @@
   }
 }
 
-.place__image {
+.places__image {
   width: 100%;
 }
 
