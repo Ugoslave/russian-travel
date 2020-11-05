@@ -1,0 +1,19 @@
+.footer__links {
+  box-sizing: border-box;
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+}
+
+@media screen and (min-width: 500px) and (max-width: 649px) {
+  .footer__links {
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .footer__links {
+    flex-direction: column;
+  }
+}
