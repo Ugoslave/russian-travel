@@ -4,10 +4,15 @@
   font-size: 24px;
   line-height: calc(28 / 24);
   text-decoration: none;
+  transition: color 1s ease;
 }
 
 .header__lang-link:last-child {
   padding-left: 18px;
+}
+
+.header__lang-link:hover {
+  color: #aaa;
 }
 
 @media screen and (max-width: 424px) {
