@@ -1,0 +1,12 @@
+.place-card__link {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: calc(22 / 18);
+  color: white;
+  transition: text-shadow, color 1s ease;
+}
+
+.place-card__link:hover {
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  color: #aaa;
+}
