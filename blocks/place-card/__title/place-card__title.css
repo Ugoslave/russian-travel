@@ -14,10 +14,18 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 321px) and (max-width: 767px) {
   .place-card__title {
     font-size: 32px;
     line-height: 35px;
-    padding:0 16px 32px;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place-card__title {
+    font-size: 32px;
+    line-height: 35px;
+    padding: 0 16px 32px;
   }
 }

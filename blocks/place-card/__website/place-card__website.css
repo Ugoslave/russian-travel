@@ -30,11 +30,11 @@
   }
 
   .place-card:nth-of-type(4) .place-card__website {
-    padding-top: 0px;
+    padding-top: 0;
   }
 
   .place-card:nth-of-type(5) .place-card__website {
-    padding-top: 0px;
+    padding-top: 0;
   }
 }
 

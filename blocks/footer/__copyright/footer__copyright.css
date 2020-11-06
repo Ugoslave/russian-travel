@@ -4,14 +4,7 @@
   line-height: calc(16 / 14);
 }
 
-@media screen and (min-width: 500px) and (max-width: 649px) {
-  .footer__copyright {
-    padding-top: 32px;
-    line-height: 1;
-  }
-}
-
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 649px) {
   .footer__copyright {
     padding-top: 32px;
     line-height: 1;
