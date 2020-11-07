@@ -5,12 +5,12 @@
   font-weight: normal;
   font-size: 16px;
   line-height: calc(18 / 16);
-  transition: text-shadow, color 1s ease;
+  transition: text-shadow, opacity 1s ease;
 }
 
 .footer__link:hover {
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  color: #aaa;
+  opacity: .8;
 }
 
 @media screen and (max-width: 499px) {
